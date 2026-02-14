@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Be My Valentine 💕</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<!-- ================= HALAMAN 1 ================= -->
+<div class="page1" id="page1">
+    <div class="container">
+        <img src="./img/minion-minion-loves.gif" class="top-image" alt="valentine GIF">
+        <h1>Will You Be My Valentine?🌹</h1>
+        <div>
+            <button id="yesBtn">IYAAAA👉🏻👈🏻</button>
+            <button id="noBtn">Gamaw😒</button>
+        </div>
+    </div>
+</div>
+
+<!-- 🎉 SURPRISE -->
+<div class="surprise-overlay" id="surpriseOverlay">
+    <div class="surprise-float">
+        <img src="./img/surprise.jpeg" alt="surprise">
+        <h2>💥YEAYYYY💥</h2>
+        <p>✨mwehehehehe✨</p>
+        <audio id="boomSound" src="./musik/Boom-Sound-Effect-(Download).mp3" preload="auto"></audio>
+    </div>
+</div>
+
+<!-- ================= HALAMAN 2 ================= -->
+<div class="page2" id="page2">
+
+    <h1>OUR SONG</h1>
+
+    <!-- Tombol Note -->
+    <button id="noteBtn">📝 Note</button>
+
+    <!-- Kotak note -->
+    <div id="noteBox">
+        aku gatau lagu yang cocok jadi ayang pilih sendiri hehehe
+    </div>
+
+    <div class="player">
+
+        <!-- Vinyl -->
+        <div class="vinyl" id="vinyl">
+            <div class="center-label">
+                <img src="./img/vinyl-label.jpeg" alt="photo">
+            </div>
+        </div>
+
+        <!-- Tonearm -->
+        <div class="tonearm" id="tonearm"></div>
+        <div class="tonearm-cover"></div>
+
+        <!-- Control Panel -->
+        <div class="control-panel">
+
+            <button id="powerBtn">⏻</button>
+            <button id="playBtn">▶</button>
+            <button id="stopBtn">■</button>
+            <input type="file" id="musicUpload" accept="audio/mp3,audio/*">
+            
+        </div>
+
+        <audio id="music"></audio>
+
+    </div>
+</div>
+
+<script src="./script.js"></script>
+</body>
+</html>
